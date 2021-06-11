@@ -103,7 +103,7 @@ Ex: Domínio (E-commerce) - Subdominios (payment, offer, customer, shipping)
 
 DDD envolve conhecimento profundo dos fundamentos. Dificilmente sem conhecimento e experiência com orientação à objetos, SOLID, design patterns e outros fundamentos será possível atuar com DDD.
 
-Muitas "camadas" desnecessárias. DDD não é sobre separar o projeto em muitas pastas/projetos não reduzem necessariamente o acoplamento.
+Muitas "camadas" desnecessárias. DDD não é sobre separar o projeto em muitas pastas/projetos, isso não reduz necessariamente o acoplamento.
 
 
 
