@@ -1,7 +1,7 @@
 
 # O QUE É DESIGN PATTERNS
 
-**Uma solução para um problema que existe (só aplicar quando o problema existe)**
+**Uma solução para um problema que existe (só aplicar quando o problema existir)**
 
 Caso de Uso - 2 (duas) ruas se cruzando - soluções (semáforo, rotatória) = cada uma tem o seu custo e sua aplicação, depente muito do cenário
 
