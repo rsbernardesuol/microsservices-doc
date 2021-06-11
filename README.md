@@ -130,9 +130,9 @@ Cada microsserviço tem que ter seu própio banco de dados - Ex: isolar as bases
 
 ![Fan-out](bd_2.png)
 
-## Problema 1:  Não ter acesso a todos os dados, a transação só tem acesso ao dados do banco do microsserviço ##
+## Problema 1 - Não ter acesso a todos os dados, a transação só tem acesso ao dados do banco do microsserviço ##
 
-Solução 1: Padrão de projeto CQRS(Command Query Responsability Segregation) - É separar a responsabilidade de escrita e leitura de seus dados. Um microsserviço é responsável pela inserção de dados e outro responsável por ler os dados (Ajuda a escalar independentemente conforme a necessidade).
+Solução: Padrão de projeto CQRS(Command Query Responsability Segregation) - É separar a responsabilidade de escrita e leitura de seus dados. Um microsserviço é responsável pela inserção de dados e outro responsável por ler os dados (Ajuda a escalar independentemente conforme a necessidade).
   
   - Problema: Duplicação de código  -  Os 2 microsserviços vão lhe dar com mesmo sub-dominio.
   - Problema: Consistência eventual -  O inserir o dado pelo microsserviço de inserção o de leitura não terá o dado instantâneamente, existe um delay 
@@ -140,9 +140,11 @@ Solução 1: Padrão de projeto CQRS(Command Query Responsability Segregation) -
   - Problema: Como unir informações 
       - Solução: Utilizar VIEWS MATERIALIZADAS apesar de ainda ter o problema da consistência eventual
 
-## Problema 2: Como atualizar as bases de dados em microsserviços diferentes? ##
+![Fan-out](CQRS_1.png)
 
-Solução 2: Padrão de projeto Event sourcing / Fan-out - É a capacidade de uma informação ser multiplicada para outros consumidores. Onde um evento de criação de um pedido por exemplo seja multiplicado e entregue à diferentes microsserviços. Ex de tecnologia: Mensagerias (SNS, Rabbit MQ), Streams(Kafka, Kinessis) ou até fila em banco
+## Problema 2 - Como atualizar as bases de dados em microsserviços diferentes? ##
+
+Solução: Padrão de projeto Event sourcing / Fan-out - É a capacidade de uma informação ser multiplicada para outros consumidores. Onde um evento de criação de um pedido por exemplo seja multiplicado e entregue à diferentes microsserviços. Ex de tecnologia: Mensagerias (SNS, Rabbit MQ), Streams(Kafka, Kinessis) ou até fila em banco
 
    - Problema: Consistência eventual -  Enquanto a mensagem passa pelo message brocker, por mais que seja rápido haverá um delay
 
