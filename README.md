@@ -109,13 +109,13 @@ Muitas "camadas" desnecessárias. DDD não é sobre separar o projeto em muitas 
 
 ## Dicas
 
-Linguagem Ubíqua. Fale tudo como todos que entendem do negócio falam.
+- Linguagem Ubíqua. Fale tudo como todos que entendem do negócio falam.
 
-Context Map. Entenda as aplicações, os times e como tudo se conecta.
+- Context Map. Entenda as aplicações, os times e como tudo se conecta.
 
-Bounded Context. Defina e entenda bem o contexto das aplicações que serão desenvolvidas.
+- Bounded Context. Defina e entenda bem o contexto das aplicações que serão desenvolvidas.
 
-Interfaces, entidades e regras de negócio. Desenvolva sempre orientado à interfaces, centralize as regras de negócio nas entidades, use e abuse do SOLID e de Clean Code.
+- Interfaces, entidades e regras de negócio. Desenvolva sempre orientado à interfaces, centralize as regras de negócio nas entidades, use e abuse do SOLID e de Clean Code.
 
 ![DDD](ddd_2.png)
 
