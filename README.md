@@ -9,7 +9,7 @@ Caso de Uso - 2 (duas) ruas se cruzando - soluções (semáforo, rotatória) = c
 
 # MICROSSERVIÇOS
 
-## O que é
+## O que é?
 
 Abordagem para a arquitetura de software com o foco na construção de pequenos serviços com uma única responsabilidade, que funcionem de forma independente.
 
@@ -21,13 +21,13 @@ Facilitar a implantação e a escalabilidade, aumentar a tolerância à falhas, 
 
 
 
-## Por que usar
+## Por que usar?
 
 Redução de custos. Escalar parte do todo é mais barato que escalar o todo. Implantar mais rápido tem resultados mais rápido. Códigos menores e objetivos são mais fáceis de manipular.
 
 
 
-## Quando não utilizar
+## Quando não utilizar?
 
 Quando os serviços são dependentes. Se os microsserviços possuem alta dependência, possivelmente você está fazendo um monolito distribuído.
 
@@ -68,7 +68,7 @@ Nâo dependa de dados de terceiros
 
 
 
-## O que é
+## O que é?
 
 Abordagem para o desenvolvimento de software em que seu design é orientado pelo domínio/subdominio.
 
@@ -80,7 +80,7 @@ Manter sob controle a complexidade inerente aos softwares que atendem necessidad
 
 
 
-## Por que usar
+## Por que usar?
 
 Redução de custos. Complexidade gera custo de desenvolvimento, evolução, manutenção, reduz a qualidade, degrada a performance. Todos esses custos também são custos em $$$. 
 
@@ -88,7 +88,7 @@ Ex: Domínio (E-commerce) - Subdominios (payment, offer, customer, shipping)
 
 
 
-## Quando não utilizar
+## Quando não utilizar?
 
 Quando o problema a ser resolvido não é complexo. Tentar usar DDD para problemas simles só trás complexidade
 
