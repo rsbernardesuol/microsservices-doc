@@ -91,11 +91,11 @@ Ex: Domínio (E-commerce) - Subdominios (payment, offer, customer, shipping)
 
 ## Quando não utilizar?
 
-Quando o problema a ser resolvido não é complexo. Tentar usar DDD para problemas simles só trás complexidade
+- Quando o problema a ser resolvido não é complexo. Tentar usar DDD para problemas simles só trás complexidade
 
-Aplicações com um "domínio" bem definido. Proxies, BFFs, CRUDs, aplicações comuns que não variam nos seus casos de uso
+- Aplicações com um "domínio" bem definido. Proxies, BFFs, CRUDs, aplicações comuns que não variam nos seus casos de uso
 
-Aplicações muito pequenas e/ou estáticas. Se sua aplicação tem poucos fluxos de negócio ou não existe uma visão de evolução clara, possivelmente vc não precisa
+- Aplicações muito pequenas e/ou estáticas. Se sua aplicação tem poucos fluxos de negócio ou não existe uma visão de evolução clara, possivelmente vc não precisa
 
 
 
