@@ -29,35 +29,35 @@ Redução de custos. Escalar parte do todo é mais barato que escalar o todo. Im
 
 ## Quando não utilizar?
 
-Quando os serviços são dependentes. Se os microsserviços possuem alta dependência, possivelmente você está fazendo um monolito distribuído.
+- Quando os serviços são dependentes. Se os microsserviços possuem alta dependência, possivelmente você está fazendo um monolito distribuído.
 
-O ambiente não é cloud ou muito limitado. A capacidade elástica de provisionamento e a forma de precificação da nuvem é um dos responsáveis pelos maiores benefícios da redução de custos.
+- O ambiente não é cloud ou muito limitado. A capacidade elástica de provisionamento e a forma de precificação da nuvem é um dos responsáveis pelos maiores benefícios da redução de custos.
 
-Não tem cultura DevOps/automatização de processos. Se não existe colaboração entre as equipes Dev e Ops e os processos ainda não são automatizados.
+- Não tem cultura DevOps/automatização de processos. Se não existe colaboração entre as equipes Dev e Ops e os processos ainda não são automatizados.
 
-Você está começando um projeto (MVP)
+- Você está começando um projeto (MVP)
 
-Você ainda não precisa. Sua aplicação ainda não tem muito volume, possui um time restrito, tudo funciona muito bem do jeito que tá e o esforço no momento será muito grande.
+- Você ainda não precisa. Sua aplicação ainda não tem muito volume, possui um time restrito, tudo funciona muito bem do jeito que tá e o esforço no momento será muito grande.
 
-Quando o time é "muito júnior" ou não tem conhecimento sobre
+- Quando o time é "muito júnior" ou não tem conhecimento sobre
 
 
 ## Dicas
 
-Microsserviços NÃO é quebrar sua aplicação em várias que se chamam loucamente e dependentemente entre si!
+- Microsserviços NÃO é quebrar sua aplicação em várias que se chamam loucamente e dependentemente entre si!
 
-Um microsserviço deve ter apenas uma responsabilidade!
+- Um microsserviço deve ter apenas uma responsabilidade!
 
-Respeite a base de dados do outro serviço. Acesso e operações somente via esse "outro serviço"!
+- Respeite a base de dados do outro serviço. Acesso e operações somente via esse "outro serviço"!
 
-Segmente sempre que possível. Acoplamento não é bom.
+- Segmente sempre que possível. Acoplamento não é bom.
 
-Comunicação entre microsserviços é prioritariamente assíncrona!
+- Comunicação entre microsserviços é prioritariamente assíncrona!
 
-Nâo dependa de dados de terceiros
+- Nâo dependa de dados de terceiros
 
 
-![Trace](monolitoxmicrosserice.png)
+![Microsservice](monolitoxmicrosserice.png)
 
 
 # DECOMPOSIÇÃO - Como pegar uma aplicação grande e quebrar em microsserviços? 
