@@ -117,6 +117,9 @@ Bounded Context. Defina e entenda bem o contexto das aplicações que serão des
 
 Interfaces, entidades e regras de negócio. Desenvolva sempre orientado à interfaces, centralize as regras de negócio nas entidades, use e abuse do SOLID e de Clean Code.
 
+![DDD](ddd_2.png)
+
+
 <br>
 
 # GESTÃO DE DADOS
