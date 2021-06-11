@@ -146,7 +146,7 @@ Cada microsserviço tem que ter seu própio banco de dados - Ex: isolar as bases
 
 ## Problema 2 - Como atualizar as bases de dados em microsserviços diferentes? ##
 
- <b>Solução: Padrão de projeto Event sourcing / Fan-out</b> - É a capacidade de uma informação ser multiplicada para outros consumidores. Onde um evento de criação de um pedido por exemplo seja multiplicado e entregue à diferentes microsserviços. Ex de tecnologia: Mensagerias (SNS, Rabbit MQ), Streams(Kafka, Kinessis) ou até fila em banco
+ <b>Solução: Padrão de projeto Event sourcing / Fan-out</b> - É a capacidade de uma informação ser multiplicada para outros consumidores. Onde um evento de criação de um pedido por exemplo seja multiplicado e entregue à diferentes microsserviços. Ex de tecnologias: Mensagerias (SNS, Rabbit MQ), Streams(Kafka, Kinessis) ou até fila em banco
 
    - Problema: Consistência eventual -  Enquanto a mensagem passa pelo message brocker, por mais que seja rápido haverá um delay
 
