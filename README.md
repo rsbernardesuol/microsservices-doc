@@ -59,9 +59,10 @@ Redução de custos. Escalar parte do todo é mais barato que escalar o todo. Im
 
 ![Microsservice](monolitoxmicrosserice_monolito.png)
 
+<br>
 
-# DECOMPOSIÇÃO - Como pegar uma aplicação grande e quebrar em microsserviços? 
-
+# DECOMPOSIÇÃO 
+**Como pegar uma aplicação grande e quebrar em microsserviços?**
 
    
 ## Padrão de projeto DDD (Domain Driven Design) - Subdominios
@@ -116,7 +117,7 @@ Bounded Context. Defina e entenda bem o contexto das aplicações que serão des
 
 Interfaces, entidades e regras de negócio. Desenvolva sempre orientado à interfaces, centralize as regras de negócio nas entidades, use e abuse do SOLID e de Clean Code.
 
-
+<br>
 
 # GESTÃO DE DADOS
 
@@ -159,7 +160,7 @@ Padrão de projeto Event sourcing / Fan-out - É a capacidade de uma informaçã
 Consistência eventual - Enquanto a mensagem passa pelo message brocker, por mais que seja rápido haverá um delay
 ```
 
-
+<br>
 
 ## Observability
 Como monitorar todas as instâncias e serviços distribuidos (Logs distribuidos)?
