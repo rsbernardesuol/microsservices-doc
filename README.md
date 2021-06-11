@@ -57,7 +57,7 @@ Redução de custos. Escalar parte do todo é mais barato que escalar o todo. Im
 - Nâo dependa de dados de terceiros
 
 
-![Microsservice](monolitoxmicrosserice.png)
+![Microsservice](monolitoxmicrosserice_monolito.png)
 
 
 # DECOMPOSIÇÃO - Como pegar uma aplicação grande e quebrar em microsserviços? 
