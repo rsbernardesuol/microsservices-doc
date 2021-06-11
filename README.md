@@ -138,7 +138,7 @@ Solução: Padrão de projeto CQRS(Command Query Responsability Segregation) - �
   - Problema: Consistência eventual -  O inserir o dado pelo microsserviço de inserção o de leitura não terá o dado instantâneamente, existe um delay 
       - Solução: Utilizar mecânismos de compensação e/ou retry
   - Problema: Como unir informações 
-      - Solução: Utilizar VIEWS MATERIALIZADAS apesar de ainda ter o problema da consistência eventual
+      - Solução: Utilizar <b>VIEWS MATERIALIZADAS</b> apesar de ainda ter o problema da consistência eventual
 
 ![Fan-out](CQRS_1.png)
 
@@ -165,3 +165,14 @@ Custo elevado $$$
 
 
 ![Trace](observability_1.png)
+
+
+<br>
+
+## BIBLIOGRAFIA
+
+![Livro](livro1.png) 
+<br>
+![Livro](livro_2.png)
+<br>
+![Livro](bd_1.png)
