@@ -162,7 +162,7 @@ Consistência eventual - Enquanto a mensagem passa pelo message brocker, por mai
 
 <br>
 
-## Observability
+## OBSERVABILITY
 Como monitorar todas as instâncias e serviços distribuidos (Logs distribuidos)?
 	
 ## Padrão de projeto Distributed tracing 
