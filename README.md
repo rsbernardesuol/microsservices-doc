@@ -142,6 +142,12 @@ Cada microsserviço tem que ter seu própio banco de dados - Ex: isolar as bases
   - Problema: Como unir informações 
       - Solução: Utilizar <b>VIEWS MATERIALIZADAS</b> apesar de ainda ter o problema da consistência eventual
 
+	Visão Materializada é uma view, só que neste caso, o que é armazenado não é a consulta e sim o resultado dela.
+
+	Isso implica algumas coisas muito importantes que devem ser entendidas quando for decidir entre criar uma VIEW ou uma MATERIALIZED VIEW.
+
+	Primeiro, uma MATERIALIZED VIEW é uma tabela real no banco de dados que é atualizada SEMPRE que ocorrer uma atualização em alguma tabela usada pela sua  consulta. Por este motivo, no momento em que o usuário faz uma consulta nesta visão materializada o resultado será mais rápido que se ela não fosse materializada.
+
 ![Fan-out](CQRS_1.png)
 
 ## Problema 2 - Como atualizar as bases de dados em microsserviços diferentes? ##
